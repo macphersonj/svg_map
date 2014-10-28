@@ -1,0 +1,80 @@
+html {
+  background:#efefef;
+  font-family: 'Raleway', sans-serif;
+  font-size:10px;
+  
+}
+
+body {
+  width:1000px;
+  margin:0 auto;
+}
+
+#map {
+  margin:0 auto;
+  width:940px;
+  height:510px;
+  padding:30px;
+}
+
+.infographic {
+  background:#efefef;
+}
+
+.infobox__title {
+  font-size:1.8rem;
+}
+
+.infobox {
+  font-family:helvetica;
+  color:#ffffff;
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  background-color:#084862;
+  border-radius:6px;
+}
+.infobox__close {
+  font-family:helvetica;
+	font-size: 10px;
+	color: red;
+	position: absolute;
+	top: 4px;
+	right: 8px;
+	text-decoration: none;
+}
+.description {
+  font-size:12px;
+  display:block;
+  margin-top:5px;
+  line-height:18px;
+}
+.infobox:after, .infobox:before {
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.infobox:before {
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #084862;
+  border-width: 13px;
+  top: 30%;
+  margin-top: -13px;
+}
+
+h1 {
+  font-size:3rem;
+  text-align:center;
+  color:;
+  font-weight:100;
+}

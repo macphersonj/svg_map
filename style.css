@@ -2,7 +2,6 @@ html {
   background:#efefef;
   font-family: 'Raleway', sans-serif;
   font-size:10px;
-  
 }
 
 body {
@@ -13,12 +12,13 @@ body {
 #map {
   margin:0 auto;
   width:940px;
-  height:510px;
+  height:508px;
   padding:30px;
+  border-radius:12px;
 }
 
 .infographic {
-  background:#efefef;
+  background:url('bg.png');
 }
 
 .infobox__title {
@@ -40,6 +40,7 @@ body {
   background-color:#084862;
   border-radius:6px;
 }
+
 .infobox__close {
   font-family:helvetica;
 	font-size: 10px;
@@ -49,12 +50,14 @@ body {
 	right: 8px;
 	text-decoration: none;
 }
+
 .description {
   font-size:12px;
   display:block;
   margin-top:5px;
   line-height:18px;
 }
+
 .infobox:after, .infobox:before {
   left: 100%;
   border: solid transparent;
@@ -64,6 +67,7 @@ body {
   position: absolute;
   pointer-events: none;
 }
+
 .infobox:before {
   border-color: rgba(255, 255, 255, 0);
   border-left-color: #084862;
@@ -75,6 +79,22 @@ body {
 h1 {
   font-size:3rem;
   text-align:center;
-  color:;
+  color:#b20339;
   font-weight:100;
 }
+
+p {
+  font-size:1.8rem;
+  text-align:center;
+  font-weight:400;
+  line-height:3rem;
+  margin-top:2rem;
+}
+
+a {
+  text-decoration:none;
+  border-bottom:1px dashed orange;
+  color:orange;
+}
+
+
